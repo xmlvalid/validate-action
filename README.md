@@ -48,7 +48,7 @@ Pro: 10,000).
 |---|---|
 | `files` | files or globs, one per line or space-separated |
 | `urls` | public URLs, one per line |
-| `schema` | a catalog slug (`atom-1.0`), a saved schema (`my-12`), or `auto` for the profile each e-invoice names |
+| `schema` | a catalog slug (`atom-1.0`), a saved schema (`@orders-v3`), or `auto` for the profile each e-invoice names |
 | `schema-file` | an XSD, DTD or RelaxNG file in the repository |
 | `rules` | your own Schematron (`.sch`) file in the repository, run after the schema check |
 | `rules-version` | pins such as `peppol-bis-3-ubl@3.0.21`, one per line: fail when the business rules are at another release |
@@ -61,7 +61,7 @@ Pro: 10,000).
 | `cli-version` | the `@xmlvalid/cli` version to run, default `1` |
 
 A schema that spans several files (imports, includes) is easiest to save once in the
-dashboard and use by its `my-…` name.
+dashboard and use by its `@…` name.
 
 The step runs [`@xmlvalid/cli`](https://www.npmjs.com/package/@xmlvalid/cli) with
 `npx`; the runner needs Node.js 20 or newer (GitHub-hosted runners have it).

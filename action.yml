@@ -15,7 +15,7 @@ inputs:
     required: false
     default: ""
   schema:
-    description: A catalog slug (atom-1.0), one of your saved schemas (my-12), or auto for the profile each e-invoice names.
+    description: A catalog slug (atom-1.0), one of your saved schemas (@orders-v3), or auto for the profile each e-invoice names.
     required: false
     default: ""
   schema-file:
