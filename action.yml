@@ -83,6 +83,7 @@ runs:
         INPUT_REPORT: ${{ inputs.report }}
         INPUT_SHARE: ${{ inputs.share }}
         CLI_VERSION: ${{ inputs.cli-version }}
+        XMLVALID_CLIENT: github-action
       run: |
         # Inputs arrive as environment variables, never pasted into the script.
         set -euo pipefail
